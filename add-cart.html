@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="sass/cart.css">
+    <link rel="stylesheet" href="sass/header.css">
+    <link rel="stylesheet" href="sass/index.css">
+    <title>CART</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="top-bar">
+            <p>
+                Shipping minimum is 5 pints. Pint maximum is up to you.
+            </p>
+        </div>
+
+        <nav id="navbar">
+
+            <button class="mbl-nav-btn" type="button">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <div class="logo-nav">
+                <a href="index.html">
+                    <img src="https://vanleeuwenicecream.com/wp-content/uploads/2021/02/vanleeuwen-logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="menu-list">
+                <button class="nav-close" type="button">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+                <ul>
+                    <li><a>Ice Cream</a>
+
+                        <button class="dropdown-btn-mbl"></button>
+
+                        <ul class="dropdown-sub-menu">
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">Ice Cream</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">Ice Cream Bundles</a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li><a>Vegan Ice Cream</a>
+
+                        <button class="dropdown-btn-mbl"></button>
+
+                        <ul class="dropdown-sub-menu">
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">Vegan Ice Cream</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">Vegan Ice Cream Bundles</a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li><a>Scoop Shops</a>
+
+                        <button class="dropdown-btn-mbl"></button>
+
+                        <ul class="dropdown-sub-menu">
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">Now Scooping</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">New York</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">Jersey</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">California</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">Texas</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="collection.html">Washington DC</a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li><a>Buy</a>
+
+                        <button class="dropdown-btn-mbl"></button>
+
+                        <ul class="dropdown-sub-menu">
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="">NationWide Shipping</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="">Local Delivery</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="">Merch</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="">Digital Gift Card</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="">Group Gifting</a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li><a>Good Stuff</a>
+
+                        <button class="dropdown-btn-mbl"></button>
+
+                        <ul class="dropdown-sub-menu">
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="about.html">Lict Contest</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="about.html">Our Story</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="FAQs.html">FAQs</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="">Join the team</a>
+                            </li>
+                            <li class="dsm-list">
+                                <a class="dsm-link" href="">Say hello</a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li><a href="tab-page.html">Events & Catering</a></li>
+
+                    <li class="mbl-user"><a href=""><img src="images/mbl-user.svg" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="cart-login">
+                <div class="user-icon icons">
+                    <a href="">
+                        <img src="images/user.svg" alt="">
+                    </a>
+                </div>
+                <div class="cart-icon icons">
+                    <a href="add-cart.html">
+                        <img src="images/cart.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-cart container-fluid">
+
+        <div class="row add-cart-content">
+            <h1>cart</h1>
+            <div class="content-min">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p>To place an order, your cart total must be at least
+                    <span>$60.00</span>
+                </p>
+            </div>
+        </div>
+
+        <form action="">
+            <div class="product-cart">
+                <table>
+
+                    <thead>
+                        <tr class="for-mbl-shop">
+                            <th class="product-remove">Remove</th>
+                            <th class="product-thumbnail">&nbsp;</th>
+                            <th class="product-name">Product</th>
+                            <th class="product-price">Price</th>
+                            <th class="product-quantity">Quantity</th>
+                            <th class="product-subtotal">Subtotal</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="cart_item">
+
+                            <td class="product-remove">
+                                <a href="" class="remove">×</a>
+                            </td>
+
+                            <td class="product-thumbnail">
+                                <img width="150" height="150"
+                                    src="https://vanleeuwenicecream.com/wp-content/uploads/2023/02/Malted-Cookie-Dough-Shake_OVERSCOOPED-150x150.png"
+                                    sizes="(max-width: 150px) 100vw, 150px">
+                            </td>
+
+                            <td class="product-name" data-title="Product">
+                                <a href="">Malted
+                                    Cookie Dough Shake</a>
+                            </td>
+
+                            <td class="product-price">
+                                <span class=""><bdi><span class="">$</span>12.00</bdi></span>
+                            </td>
+
+                            <td class="product-quantity">
+                                <div class="quantity">
+                                    <div>QTY</div>
+                                    <input type="number" id="" min="0" max="" name="cart" value="1" size="4"
+                                        placeholder="" autocomplete="off">
+                                </div>
+                            </td>
+
+                            <td class="product-subtotal">
+                                <span><bdi><span>$</span>12.00</bdi></span>
+                            </td>
+                        </tr>
+
+                        <tr class="cart-update">
+                            <td colspan="12" class="">
+
+                                <div class="coupon">
+                                    <input type="text" name="coupon_code" class="input-text" id="coupon_code" value=""
+                                        placeholder="Coupon code"> <button type="submit" class="button"
+                                        name="apply_coupon" value="Apply coupon">Apply
+                                        coupon</button>
+                                </div>
+
+                                <button type="submit" class="button" name="update_cart" value="Update cart" disabled=""
+                                    aria-disabled="true">Update cart</button>
+
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </form>
+
+        <div class="cart-collection">
+            <div class="cart_totals ">
+
+                <h2>Cart totals</h2>
+
+                <table class="shop_table">
+
+                    <tbody>
+                        <tr class="cart-subtotal">
+                            <th>Subtotal</th>
+                            <td><span><bdi><span>$</span>12.00</bdi></span></td>
+                        </tr>
+                        <tr class="tax-total">
+                            <th>Tax</th>
+                            <td>Taxes will be calculated at checkout</td>
+                        </tr>
+                        <tr class="order-total">
+                            <th>Total</th>
+                            <td><span><bdi><span>$</span>12.00</bdi></span>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div class="wc-proceed-to-checkout">
+                    <a href="" role="button">Proceed to checkout</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="row ft-all-content">
+
+            <div class="col-lg-6 logo-email-side">
+                <div class="les-content">
+                    <div class="ft-logo">
+                        <a href="index.html">
+                            <img src="https://vanleeuwenicecream.com/wp-content/uploads/2021/02/vanleeuwen-logo.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <h2>Sign up to receive exclusive offers and discounts</h2>
+                    <form action="">
+                        <label for="">Enter your email address:</label>
+                        <div class="input-btn">
+                            <input type="search" name="" id="" placeholder="Email">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-6 ft-menu-content">
+                <div class="menu-list">
+                    <ul>
+                        <li><a href="collection.html">Ice Cream </a></li>
+                        <li><a href="collection.html">Vegan Ice Cream </a></li>
+                        <li><a href="tab-page.html">Events & Catering</a></li>
+                        <li><a href="collection.html">Now Scooping</a></li>
+                        <li><a href="">Group Gifting</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Tik Tok</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="lower-footer-content row">
+
+            <div class="col-lg-6 copy-right">
+                <span>© 2023 Van Leeuwen Ice Cream</span>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="">Accessibility Policy</a></li>
+                    <li><a href="FAQs.html">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 social-links">
+                <div class="sl-icons">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/cookies.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

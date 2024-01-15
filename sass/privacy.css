@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500;600;700;800;900;1000&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sofia Sans", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.main {
+  background-color: #F9F3E4;
+}
+.main .privacy-details {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main .privacy-details h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 10px 30px 10px;
+}
+.main .privacy-details p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+.main .privacy-details p a {
+  color: black;
+}
+.main .privacy-details p a:hover {
+  color: red;
+}
+.main .privacy-details h2 {
+  line-height: 43px;
+  font-size: 39px;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main .privacy-details h3 {
+  text-transform: uppercase;
+}
+.main .privacy-details .license-list {
+  list-style: none;
+}
+.main .privacy-details .license-list li {
+  padding-left: 2rem;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .main .privacy-details {
+    max-width: 1140px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main .privacy-details h1 {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .main .privacy-details h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .main .privacy-details {
+    padding: 0 10px;
+  }
+  .main .privacy-details h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}/*# sourceMappingURL=privacy.css.map */

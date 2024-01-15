@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400;500;600;700;800;900;1000&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sofia Sans", sans-serif;
+  letter-spacing: 1.5px;
+  scroll-behavior: unset;
+}
+
+.faq-content {
+  background-color: #f9f3e4;
+  padding-bottom: 1rem;
+}
+.faq-content .fq-all-content .fq-heading {
+  text-align: center;
+  padding-bottom: 32px;
+}
+.faq-content .fq-all-content .fq-heading h1 {
+  padding-top: 52px;
+  padding-bottom: 32px;
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.faq-content .fq-all-content .fq-heading .fq-links ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 0 30px;
+  padding: 0 20px;
+}
+.faq-content .fq-all-content .fq-heading .fq-links ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0 10px;
+  flex-wrap: wrap;
+}
+.faq-content .fq-all-content .fq-heading .fq-links ul li a {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  display: block;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.faq-content .fq-all-content .fq-heading .fq-links ul li a:hover {
+  color: #ff5b5b;
+}
+.faq-content .fq-all-content .fq-heading .fq-links ul li span {
+  font: inherit;
+  vertical-align: baseline;
+}
+.faq-content .fq-main-content {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.faq-content .fq-main-content .fq-ques-ans {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.faq-content .fq-main-content .fq-ques-ans h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.faq-content .fq-main-content .fq-ques-ans .box-qt strong {
+  font-weight: bolder;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: unset;
+  display: block;
+  margin-bottom: 6px;
+}
+.faq-content .fq-main-content .fq-ques-ans .box-qt p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+.faq-content .fq-main-content .fq-ques-ans .box-qt p a {
+  color: #000000;
+}
+
+@media only screen and (max-width: 767px) {
+  .faq-content .fq-all-content .fq-heading .fq-links ul {
+    padding: 0;
+  }
+  .faq-content .fq-all-content .fq-heading h1 {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}/*# sourceMappingURL=FAQs.css.map */
