@@ -185,28 +185,28 @@ header nav .menu-list ul li .dropdown-btn-mbl::after {
     header nav .menu-list ul li {
         padding: 9px 15px 9px 15px;
     }
-    header nav .menu-list ul li a{
+    header nav .menu-list ul li a {
         font-size: 16px;
     }
     header nav .logo-nav img {
         width: 150px;
         height: auto;
-    }    
+    }
 }
 
 @media only screen and (max-width: 1075px) {
     header nav .menu-list ul li {
         padding: 9px 12px 9px 12px;
     }
-    header nav .menu-list ul li a{
+    header nav .menu-list ul li a {
         font-size: 14px;
     }
     header nav .cart-login .icons img {
         width: 25px;
     }
-    header nav .cart-login{
+    header nav .cart-login {
         gap: 1rem;
-    }  
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -297,28 +297,34 @@ header nav .menu-list ul li .dropdown-btn-mbl::after {
         display: inline-block;
         width: 20%;
     }
+    header nav .menu-list ul li .dropdown-btn-mbl.click-btn {
+        rotate: 180deg;
+    }
     header nav .menu-list ul li .dropdown-sub-menu {
         position: relative;
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
+        visibility: visible;
         display: none;
         background-color: #1d1e20;
         margin: 0;
         padding: 0 0 0 10px;
     }
-    header nav .menu-list ul li button:hover+.dropdown-sub-menu {
-        opacity: 1;
-        visibility: visible;
-        // transform: translate(0%);
+    header nav .menu-list ul li .dropdown-sub-menu.open-menu {
         display: block;
     }
+    // header nav .menu-list ul li button:hover+.dropdown-sub-menu {
+    //     opacity: 1;
+    //     visibility: visible;
+    //     // transform: translate(0%);
+    //     display: block;
+    // }
     header nav .menu-list ul li .dropdown-sub-menu .dsm-list .dsm-link:hover {
         background-color: transparent;
     }
 }
 
 @media only screen and (max-width: 450px) {
-    header nav .cart-login .user-icon{
+    header nav .cart-login .user-icon {
         display: none;
     }
     header .top-bar p {
