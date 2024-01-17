@@ -271,18 +271,19 @@ header nav .menu-list ul li .dropdown-btn-mbl::after {
     display: inline-block;
     width: 20%;
   }
+  header nav .menu-list ul li .dropdown-btn-mbl.click-btn {
+    rotate: 180deg;
+  }
   header nav .menu-list ul li .dropdown-sub-menu {
     position: relative;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
     display: none;
     background-color: #1d1e20;
     margin: 0;
     padding: 0 0 0 10px;
   }
-  header nav .menu-list ul li button:hover + .dropdown-sub-menu {
-    opacity: 1;
-    visibility: visible;
+  header nav .menu-list ul li .dropdown-sub-menu.open-menu {
     display: block;
   }
   header nav .menu-list ul li .dropdown-sub-menu .dsm-list .dsm-link:hover {
