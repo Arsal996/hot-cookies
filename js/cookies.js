@@ -1,3 +1,24 @@
+document.addEventListener('DOMContentLoaded', function () {
+  let MblmenuBtns = document.querySelectorAll('.dropdown-btn-mbl');
+  // Get all elements with the class 'dropdown-sub-menu'
+  let MblMenus = document.querySelectorAll('.dropdown-sub-menu');
+
+  // Add click event to each button
+  for (let i = 0; i < MblmenuBtns.length; i++) {
+    MblmenuBtns[i].onclick = () => {
+      // Remove classes from all buttons and menus
+      for (let j = 0; j < MblmenuBtns.length; j++) {
+        MblmenuBtns[j].classList.remove('click-btn');
+        MblMenus[j].classList.remove('open-menu');
+      }
+
+      // Toggle classes for the clicked button and its corresponding menu
+      MblmenuBtns[i].classList.toggle('click-btn');
+      MblMenus[i].classList.toggle('open-menu');
+    };
+  }
+});
+
 window.addEventListener('scroll', function () {
   var navbar = document.getElementById('navbar');
   var scrollPosition = window.scrollY;
